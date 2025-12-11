@@ -1,14 +1,15 @@
 ## 🌟 Highlights
 
--This project provides a Fortran implementation of the 2D Ising model, simulated using the Monte Carlo–Metropolis algorithm.
+- This project provides a **Fortran implementation of the 2D Ising model**, simulated using the **Monte Carlo–Metropolis algorithm**.
+- The code computes several fundamental thermodynamic observables of the system, including:
+  - **Average energy** ⟨E⟩
+  - **Specific heat** \(C_v\)
+  - **Average magnetization** ⟨M⟩
+  - **Magnetic susceptibility** \( \chi_M \)
+- For a detailed overview of the Ising model and the measurement techniques used in this project, see the full documentation:  
+  **[ising.pdf](https://github.com/user-attachments/files/24104009/ising.pdf)**
 
--The code computes several fundamental thermodynamic observables of the system, including:
- Average energy $\langle E \rangle$ 
- Specific heat $C_\nu$
- Magnetization average $\langle M \rangle$ 
- Magnetic susceptibility $\chi_M$.
- 
-- Here you can find more details of the ising model and the measuaremnts of this system: [ising.pdf](https://github.com/user-attachments/files/24104009/ising.pdf)
+
 
 
 ## 🚀 Usage
