@@ -1,9 +1,8 @@
 ## 🌟 Highlights
 
 - This code writen in Fortrn simultes the 2D ising model vi the Monte Carlo - Metropolis algorithm. 
-- The code computes basic observables of the system such as the $\langle E \rangle, C_\nu , <M> \chi_M, $
-- etc.
-
+- The code computes basic observables of the system such as the average energy $\langle E \rangle$, specific heat $C_\nu$, Magnetization average <M> and the magnetic susceptibility \chi_M$.
+- Here you can find more details of the ising model and the measuaremnts of this system: [ising.pdf](https://github.com/user-attachments/files/24104009/ising.pdf)
 
 ## ℹ️ Overview
 
