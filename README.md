@@ -1,45 +1,20 @@
 ## 🌟 Highlights
 
-- This code writen in Fortrn simultes the 2D ising model vi the Monte Carlo - Metropolis algorithm. 
-- The code computes basic observables of the system such as the average energy $\langle E \rangle$, specific heat $C_\nu$, Magnetization average <M> and the magnetic susceptibility \chi_M$.
+-This project provides a Fortran implementation of the 2D Ising model, simulated using the Monte Carlo–Metropolis algorithm.
+
+-The code computes several fundamental thermodynamic observables of the system, including:
+ Average energy$\langle E \rangle$ 
+ Specific heat $C_\nu$
+ Magnetization average $\langle M \rangle$ 
+ Magnetic susceptibility $\chi_M$.
+ 
 - Here you can find more details of the ising model and the measuaremnts of this system: [ising.pdf](https://github.com/user-attachments/files/24104009/ising.pdf)
-
-## ℹ️ Overview
-
-A paragraph explaining your work, who you are, and why you made it.
-
-
-### ✍️ Authors
-
-Mention who you are and link to your GitHub or organization's website.
 
 
 ## 🚀 Usage
 
-*Show off what your software looks like in action! Try to limit it to one-liners if possible and don't delve into API specifics.*
+Run in a terminal 
 
-```py
->>> import mypackage
->>> mypackage.do_stuff()
-'Oh yeah!'
-```
+gfortran ising_model.f90 -o ising_model
+./ising_model
 
-
-## ⬇️ Installation
-
-Simple, understandable installation instructions!
-
-```bash
-pip install my-package
-```
-
-And be sure to specify any other minimum requirements like Python versions or operating systems.
-
-*You may be inclined to add development instructions here, don't.*
-
-
-## 💭 Feedback and Contributing
-
-Add a link to the Discussions tab in your repo and invite users to open issues for bugs/feature requests.
-
-This is also a great place to invite others to contribute in any ways that make sense for your project. Point people to your DEVELOPMENT and/or CONTRIBUTING guides if you have them.
