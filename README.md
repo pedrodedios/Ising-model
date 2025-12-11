@@ -1,14 +1,7 @@
-# 📦 My Package
-
-(add your badges here)
-
-> *Your documentation is a direct reflection of your software, so hold it to the same standards.*
-
-
 ## 🌟 Highlights
 
-- Some functionality made easy!
-- This problem handled
+- This code writen in Fortrn simultes the 2D ising model vi the Monte Carlo - Metropolis algorithm. 
+- The code computes basic observables of the system such as the $<E>, C_\nu , <M> \chi_M, $
 - etc.
 
 
