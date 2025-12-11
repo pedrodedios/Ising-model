@@ -17,5 +17,6 @@
 Run in a terminal 
 
 gfortran ising_model.f90 -o ising_model
+
 ./ising_model
 
